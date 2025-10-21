@@ -1,2 +1,2 @@
 # My-App
-Something exciting is coming here
+Something exciting is coming here. 
