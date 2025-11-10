@@ -1,6 +1,6 @@
 <<<<<<< HEAD
 # My-App
-Something exciting is coming here . 
+Something exciting is coming here soon.
 =======
 # Welcome to your Expo app 👋
 
