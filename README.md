@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+<<<<<< HEAD
 # My-App
 Something exciting is coming here soon.
 =======
