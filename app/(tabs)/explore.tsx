@@ -63,7 +63,7 @@ export default function TabTwoScreen() {
           </ThemedText>
         </ThemedText>
         <ExternalLink href="https://docs.expo.dev/versions/latest/sdk/font">
-          <ThemedText type="link">Learn more about what I'm doing.</ThemedText>
+          <ThemedText type="link">Learn more about what I am doing.</ThemedText>
         </ExternalLink>
       </Collapsible>
       <Collapsible title="Light and dark mode components">
