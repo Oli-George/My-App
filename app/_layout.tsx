@@ -13,7 +13,7 @@ export default function RootLayout() {
   });
 
   if (!loaded) {
-    // Async font loading only occurs in development. Which is nice.
+    // Async font loading only occurs in development. Which is nice. ANd I like it
     return null;
   }
 
