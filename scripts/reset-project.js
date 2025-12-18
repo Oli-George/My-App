@@ -98,7 +98,6 @@ const moveDirectories = async (userInput) => {
   }
 };
 
-
 rl.question(
   "Do you want to move existing files to /app-example instead of deleting them? (Y/n): ",
   (answer) => {
