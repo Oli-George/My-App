@@ -12,7 +12,7 @@ export default function NotFoundScreen() {
         <ThemedText type="title">This screen does not exist.</ThemedText>
         <Link href="/" style={styles.link}>
           <ThemedText type="link">I&apos()m changing this text and it will be like this until further notice.</ThemedText>
-          <ThemedText>Try the link I corrected earlier on. How is it?</ThemedText>
+          <ThemedText>Try the link I corrected earlier on. How&apos()s it?</ThemedText>
         </Link>
       </ThemedView>
     </>
