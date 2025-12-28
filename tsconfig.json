@@ -6,16 +6,10 @@
     "module": "ESNext",
     "forceConsistentCasingInFileNames": true,
     "paths": {
-      "@/*": [
-        "./*"
-     ]
+      "@/*": ["./*"]
     }
   },
-  "include": [
-    "**/*.ts",
-    "**/*.tsx",
-    ".expo/types/**/*.ts",
-    "expo-env.d.ts"
-  ]
+  "include": ["**/*.ts", "**/*.tsx", ".expo/types/**/*.ts", "expo-env.d.ts"]
 }
+
 //This handles the configuration of the current project.
