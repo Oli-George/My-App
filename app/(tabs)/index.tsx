@@ -17,7 +17,7 @@ export default function HomeScreen() {
         />
       }>
       <ThemedView style={styles.titleContainer}>
-        <ThemedText type="title">Welcome Here</ThemedText>
+        <ThemedText type="title">Welcome Here!</ThemedText>
         <HelloWave />
       </ThemedView>
       <ThemedView style={styles.stepContainer}>
@@ -50,6 +50,7 @@ export default function HomeScreen() {
           <ThemedText type="defaultSemiBold">app</ThemedText> to{' '}
           <ThemedText type="defaultSemiBold">app-example.{'          '}</ThemedText>
           <ThemedText type="subtitle">     </ThemedText>
+          <ThemedText>Today is my birthday!!!!!!!</ThemedText>
         </ThemedText>
       </ThemedView>
     </ParallaxScrollView>
