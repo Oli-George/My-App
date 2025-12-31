@@ -50,7 +50,7 @@ export default function HomeScreen() {
           <ThemedText type="defaultSemiBold">app</ThemedText> to{' '}
           <ThemedText type="defaultSemiBold">app-example.{'          '}</ThemedText>
           <ThemedText type="subtitle">     </ThemedText>
-          <ThemedText>Today is my birthday!!!!!!!</ThemedText>
+          <ThemedText>New Year&Apos;s Eve!!!!!!!</ThemedText>
         </ThemedText>
       </ThemedView>
     </ParallaxScrollView>
