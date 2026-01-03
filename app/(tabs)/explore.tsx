@@ -87,7 +87,7 @@ export default function TabTwoScreen() {
           ios: (
             <ThemedText>
               The <ThemedText type="defaultSemiBold">components/ParallaxScrollView.tsx</ThemedText>{' '}
-              component provides a parallax effect for the header image.
+              component provides a parallax effect for the header image. Cool, isn't it?
             </ThemedText>
           ),
         })}
