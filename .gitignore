@@ -41,3 +41,4 @@ app-example
 # IDEs and editors
 .vscode/
 
+expo.env.d.ts
