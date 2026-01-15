@@ -82,7 +82,7 @@ export default function TabTwoScreen() {
           <ThemedText type="defaultSemiBold">components/HelloWave.tsx</ThemedText> component uses
           the powerful <ThemedText type="defaultSemiBold">react-native-reanimated</ThemedText>{' '}
           library to create a waving hand animation.
-          <p>Ojala, I can learn this soon enough.<span>And start shipping real products.</span></p>
+          <p>Hopefully, I can learn this soon enough.<span>And start shipping real products.</span></p>
         </ThemedText>
         {Platform.select({
           ios: (
