@@ -12,4 +12,4 @@
   "include": ["**/*.ts", "**/*.tsx", ".expo/types/**/*.ts", "expo-env.d.ts"]
 }
 
-//This handles the configuration of the current project.
+//This handles the configuration of the current project...
