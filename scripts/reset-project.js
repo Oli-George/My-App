@@ -33,6 +33,8 @@ export default function Index() {
 }
 `;
 
+
+
 const layoutContent = `import { Stack } from "expo-router";
 
 export default function RootLayout() {
