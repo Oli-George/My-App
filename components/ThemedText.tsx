@@ -58,4 +58,3 @@ const styles = StyleSheet.create({
     color: '#0a7ea4',
   },
 });
-
