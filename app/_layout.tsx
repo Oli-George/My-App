@@ -28,7 +28,7 @@ export default function RootLayout() {
     </ThemeProvider>
   );
 
-  //Laptop is back!!!
+  //Laptop is back!!! So happy man.
 
 }
 
