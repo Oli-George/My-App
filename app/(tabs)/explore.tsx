@@ -111,3 +111,4 @@ const styles = StyleSheet.create({
 });
 
 
+//Didn't need so many spaces on my gitignore file, but I guess it doesn't hurt to have them.
