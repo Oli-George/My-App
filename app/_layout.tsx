@@ -10,12 +10,12 @@ export default function RootLayout() {
   const colorScheme = useColorScheme();
   const [loaded] = useFonts({
     SpaceMono: require('../assets/fonts/SpaceMono-Regular.ttf'),
-  });
+  }); 
 
 
   if (!loaded) {
     // Async font loading only occurs in development. Which is nice. And I like it
-    return null; 
+    return null;
   }
 
   return (
@@ -28,7 +28,7 @@ export default function RootLayout() {
     </ThemeProvider>
   );
 
-  //Laptop is back!!! So happy man.
+  //Laptop is back!!! So happy man frfr.
 
 }
 
