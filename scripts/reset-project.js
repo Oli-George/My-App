@@ -111,4 +111,4 @@ rl.question(
   },
 );
 
-//Buoyancy is important. I cannot dtress this enough
+//Buoyancy is important. I cannot stress this enough
