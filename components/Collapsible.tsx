@@ -39,7 +39,7 @@ const styles = StyleSheet.create({
     gap: 7,
   },
   content: {
-    marginTop: 6,
-    marginLeft: 24,
+    marginTop: 6.25,
+    marginLeft: 25,
   },
 });
