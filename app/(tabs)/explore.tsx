@@ -8,6 +8,12 @@ import { ThemedText } from '@/components/ThemedText';
 import { ThemedView } from '@/components/ThemedView';
 import { IconSymbol } from '@/components/ui/IconSymbol';
 
+/*if (Platform.OS === 'web') {
+  // eslint-disable-next-line @typescript-eslint/no-var-requires
+  require('./explore.css');
+}
+*/
+
 export default function TabTwoScreen() {
   return (
     <ParallaxScrollView
