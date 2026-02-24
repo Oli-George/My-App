@@ -8,12 +8,12 @@ import TabBarBackground from '@/components/ui/TabBarBackground';
 import { Colors } from '@/constants/Colors';
 import { useColorScheme } from '@/hooks/useColorScheme';
 
-/*if (Platform.OS === 'android') {
+if (Platform.OS === 'android') {
   // Enable react-native-screens for better performance on Android.
   // eslint-disable-next-line @typescript-eslint/no-var-requires
   require('react-native-screens').enableScreens();
 }
-*/
+
 
 export default function TabLayout() {
   const colorScheme = useColorScheme();
