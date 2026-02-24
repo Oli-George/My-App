@@ -42,4 +42,5 @@ const styles = StyleSheet.create({
     marginTop: 6.25,
     marginLeft: 25,
   },
+  
 });
