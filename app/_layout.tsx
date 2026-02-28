@@ -12,7 +12,7 @@ export default function RootLayout() {
     SpaceMono: require('../assets/fonts/SpaceMono-Regular.ttf'),
   }); 
 
-  
+
 
   if (!loaded) {
     // Async font loading only occurs in development. Which is nice. And I like it like it that way.
@@ -29,7 +29,7 @@ export default function RootLayout() {
     </ThemeProvider>
   );
 
-  //Laptop is back!!! So happy man frfr.
+  //Laptop is back!!! So happy man frfr. Been 2 weeks now.
 
 }
 
