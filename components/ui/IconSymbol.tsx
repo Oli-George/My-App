@@ -22,8 +22,9 @@ const MAPPING = {
 
 /**
  * An icon component that uses native SF Symbols on iOS, and Material Icons on Android and web.
- * This ensures a consistent look across platforms, and optimal resource usage.
+ * This ensures a consistent look across platforms, and optimal resource usage. 
  * Icon `name`s are based on SF Symbols and require manual mapping to Material Icons.
+ * Hope it all makes sense. If not, feel free to ask for clarification or suggest improvements!
  */
 export function IconSymbol({
   name,
