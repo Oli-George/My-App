@@ -20,4 +20,4 @@ export function HapticTab(props: BottomTabBarButtonProps) {
 export default HapticTab;
 
 
-//Haptic Tab.
+//Haptic Tab. What does it even do??
