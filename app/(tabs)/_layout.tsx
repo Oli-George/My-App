@@ -8,12 +8,6 @@ import TabBarBackground from '@/components/ui/TabBarBackground';
 import { Colors } from '@/constants/Colors';
 import { useColorScheme } from '@/hooks/useColorScheme';
 
-if (Platform.OS === 'android') {
-  // Enable react-native-screens for better performance on Android.
-  // eslint-disable-next-line @typescript-eslint/no-var-requires
-  require('react-native-screens').enableScreens();
-}
-
 
 export default function TabLayout() {
   const colorScheme = useColorScheme();
@@ -40,7 +34,7 @@ export default function TabLayout() {
           tabBarIcon: ({ color }) => <IconSymbol size={28} name="house.fill" color={color} />,
         }}
       />
-      
+
       <Tabs.Screen
         name="explore"
         options={{
