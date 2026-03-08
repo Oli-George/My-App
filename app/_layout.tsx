@@ -29,7 +29,7 @@ export default function RootLayout() {
     </ThemeProvider>
   );
 
-  //Laptop is back!!! So happy man frfr. Been 4 weeks now.
+  //Laptop is back!!! So happy man frfr. Been 6 weeks now.
 
 }
 
