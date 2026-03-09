@@ -21,7 +21,7 @@ export default function TabLayout() {
         tabBarBackground: TabBarBackground,
         tabBarStyle: Platform.select({
           ios: {
-            // Use a transparent background on iOS to show the blur effect.
+            // Use a transparent background on iOS to show the Blur effect.
             position: 'absolute',
           },
           default: {},
@@ -38,7 +38,8 @@ export default function TabLayout() {
       <Tabs.Screen
         name="explore"
         options={{
-          title: 'Explore',
+          title: 'Explore', //Seemd like I've forgotten everytging about JavaScipt, but I know that I need to write something here, otherwise the app will crash. 
+          // So here it is, the title of the explore screen.
           tabBarIcon: ({ color }) => <IconSymbol size={28} name="paperplane.fill" color={color} />,
         }}
       />
