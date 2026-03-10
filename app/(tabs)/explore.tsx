@@ -98,7 +98,7 @@ export default function TabTwoScreen() {
     </ParallaxScrollView>
   );
 }
-//Top top.
+//Top top. Exploracion.
 
 const styles = StyleSheet.create({
   headerImage: {
