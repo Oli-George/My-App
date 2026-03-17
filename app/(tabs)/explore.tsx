@@ -54,6 +54,7 @@ export default function TabTwoScreen() {
         </ThemedText>
         <Image source={require('@/assets/images/react-logo.png')} style={{ alignSelf: 'center' }} />
         <ExternalLink href="https://reactnative.dev/docs/images">
+//Vini Jr. is HIM!!!!!!! 
           <ThemedText type="link">Learn more</ThemedText>
         </ExternalLink>
       </Collapsible>
