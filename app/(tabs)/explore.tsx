@@ -98,7 +98,7 @@ export default function TabTwoScreen() {
     </ParallaxScrollView>
   );
 }
-//Top top. Exploracion.
+//Top top. Exploracion. Nothin' to explore today.
 
 const styles = StyleSheet.create({
   headerImage: {
@@ -114,4 +114,4 @@ const styles = StyleSheet.create({
 });
 
 
-//Didn't need so many spaces on my gitignore file, but I guess it doesn't hurt to have them.
+//Will have to learn as much as possible on tech in general ahead of next Saturday.
