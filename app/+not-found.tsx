@@ -3,7 +3,7 @@ import { StyleSheet } from 'react-native';
 import { ThemedText } from '@/components/ThemedText';
 import { ThemedView } from '@/components/ThemedView';
 
-// This is the not found (404) screen used when a user visits a non-existent route. I'll delete this file if I don't need it.
+// This is the not found (404) screen used when a user visits a non-existent route. I'll delete this file if I do not need it.
 export default function NotFoundScreen() {
   return (
     <>
