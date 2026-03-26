@@ -24,4 +24,4 @@ export function ExternalLink({ href, ...rest }: Props) {
 }
 
 
-//What's an async/await function exactly??
+//What's an async/await function exactly?? I seem to have a bad headache this night. 
