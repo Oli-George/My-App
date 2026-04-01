@@ -14,8 +14,6 @@ export default function BlurTabBarBackground() {
   );
 }
 
- //a/file:///c%3A/Users/USER/My-App/app/%2Bnot-found.tsx
-
 export function useBottomTabOverflow() {
   return useBottomTabBarHeight();
 }
