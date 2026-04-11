@@ -1,7 +1,7 @@
 import { Link, Stack } from 'expo-router';
 import { StyleSheet } from 'react-native';
-import { ThemedText } from '@/components/ThemedText';
-import { ThemedView } from '@/components/ThemedView';
+import { ThemedText } from '@/components/ThemedText'; 
+import { ThemedView } from '@/components/ThemedView'; 
 
 // This is the not found (404) screen used when a user visits a non-existent route. I'll delete this file if I do not need it.
 export default function NotFoundScreen() {
@@ -15,7 +15,7 @@ export default function NotFoundScreen() {
           <ThemedText>Try the link I corrected earlier. How&apos()s it? Does it work??</ThemedText>
         </Link>
       </ThemedView>
-    </>
+<ThemedView></ThemedView>
   );
 }
 
@@ -30,5 +30,5 @@ const styles = StyleSheet.create({
   link: {
     marginTop: 15,
     paddingVertical: 15,
-  },  //Yeahhhh boii.
+  }, 
 });
