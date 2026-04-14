@@ -5,9 +5,8 @@ import { StatusBar } from 'expo-status-bar';
 import 'react-native-reanimated';
 import { useColorScheme } from '@/hooks/useColorScheme';
 
-// This is the root layout of the app. It wraps all the pages and components. I'll delete this file if I don't need it.
-
-export default function RootLayout() {
+// This is the root layout of the app. It wraps all the pages and components.
+export default function RootLayout() { 
   const colorScheme = useColorScheme();
   const [loaded] = useFonts({
     SpaceMono: require('../assets/fonts/SpaceMono-Regular.ttf'),
@@ -30,4 +29,3 @@ export default function RootLayout() {
   );
 
 }
-
