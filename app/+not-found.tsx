@@ -16,6 +16,7 @@ export default function NotFoundScreen() {
         </Link>
       </ThemedView>
 <ThemedView></ThemedView>
+    </>
   );
 }
 
