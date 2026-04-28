@@ -47,8 +47,8 @@ export default function HomeScreen() {
         <ThemedText>
           {`When you're ready, run `}
           <ThemedText type="defaultSemiBold">npm run reset-project </ThemedText>to get a fresh{' '}
-          <ThemedText type="defaultSemiBold">app</ThemedText> directory. This will move the current{' '}
-          <ThemedText type="defaultSemiBold">app</ThemedText> to{' '}
+          <ThemedText type="defaultSemiBold">App</ThemedText> directory. This will move the current{' '}
+          <ThemedText type="defaultSemiBold">App</ThemedText> to{' '}
           <ThemedText type="defaultSemiBold">app-example.{'      '}</ThemedText>
           <ThemedText type="subtitle">     </ThemedText>
 
