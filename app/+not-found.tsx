@@ -5,7 +5,7 @@ import { ThemedView } from '@/components/ThemedView';
 
 // This is the not found (404) screen used when a user visits a non-existent route.
 // I'll delete this file if I do not need it.
-// Otra vez
+
 export default function NotFoundScreen() {
   return (
     <>
@@ -17,7 +17,7 @@ export default function NotFoundScreen() {
           <ThemedText>Try the link I corrected earlier. How&apos()s it? Does it work??</ThemedText>
         </Link>
       </ThemedView>
-<ThemedView></ThemedView>
+<ThemedView>I WON THE SPRINT BUILD!!!!</ThemedView>
     </>
   );
 }

@@ -50,7 +50,7 @@ export default function HomeScreen() {
           <ThemedText type="defaultSemiBold">App</ThemedText> directory. This will move the current{' '}
           <ThemedText type="defaultSemiBold">App</ThemedText> to{' '}
           <ThemedText type="defaultSemiBold">app-example.{'      '}</ThemedText>
-          <ThemedText type="subtitle">     </ThemedText>
+          <ThemedText type="subtitle">  I WONN THE SPRINT BUILD IN MY CATEGORY!!!   </ThemedText>
 
         </ThemedText>
       </ThemedView>
