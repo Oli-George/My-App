@@ -38,5 +38,3 @@ const styles = StyleSheet.create({
     marginTop: -6,
   },
 });
-
-//Not at home today. Couldn't do anything meaningful. 
