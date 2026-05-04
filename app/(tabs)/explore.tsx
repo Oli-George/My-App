@@ -36,7 +36,7 @@ export default function TabTwoScreen() {
           sets up the tab navigator.
         </ThemedText>
         <ExternalLink href="https://docs.expo.dev/router/introduction"> 
-          <ThemedText type="link">Learn more.</ThemedText>
+          <ThemedText type="link">Learn more here.</ThemedText>
         </ExternalLink>
       </Collapsible>
       <Collapsible title="Android, iOS, and web support">
