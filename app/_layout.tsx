@@ -15,8 +15,7 @@ export default function RootLayout() {
 
 
   if (!loaded) {
-    // Async font loading only occurs in development. Which is nice. And I like it like it that way.
-    return null; 
+      return null; 
   }
 
   return (
