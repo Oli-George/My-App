@@ -8,7 +8,7 @@ import { ThemedText } from '@/components/ThemedText';
 import { ThemedView } from '@/components/ThemedView';
 import { IconSymbol } from '@/components/ui/IconSymbol';
 
-//Nada más
+//Nada más ahi
 export default function TabTwoScreen() {
   return (
     <ParallaxScrollView
