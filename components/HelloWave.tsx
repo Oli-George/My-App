@@ -17,7 +17,7 @@ export function HelloWave() {
   useEffect(() => {
     rotationAnimation.value = withRepeat(
       withSequence(withTiming(25, { duration: 150 }), withTiming(0, { duration: 150 })),
-      4 // Runs the animation 4 times
+      5 // Runs the animation 5 times
     );
   }, [rotationAnimation]);
   
@@ -32,6 +32,7 @@ export function HelloWave() {
     </Animated.View>
   );
 }
+
 
 const styles = StyleSheet.create({
   text: {
