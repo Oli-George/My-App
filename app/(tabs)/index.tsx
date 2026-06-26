@@ -49,10 +49,9 @@ export default function HomeScreen() {
           {`When you're ready, run `}
           <ThemedText type="defaultSemiBold">npm run reset-project </ThemedText>to get a fresh{' '}
           <ThemedText type="defaultSemiBold">App</ThemedText> directory. This will move the current{' '}
-          <ThemedText type="defaultSemiBold">App</ThemedText> to{' '}
-          <ThemedText type="defaultSemiBold">app-example.{'      '}</ThemedText>
-          <ThemedText type="subtitle">  I WONN THE SPRINT BUILD IN MY CATEGORIA!!!   </ThemedText>
-
+          <ThemedText type="defaultSemiBold">App</ThemedText> to{'  '}
+          <ThemedText type="defaultSemiBold">app-example.{'       '}</ThemedText>
+          {`Then you can start building your own app from scratch!`}
         </ThemedText>
       </ThemedView>
     </ParallaxScrollView>
@@ -78,5 +77,4 @@ const styles = StyleSheet.create({
     position: 'absolute',
   },
 });
-
 
