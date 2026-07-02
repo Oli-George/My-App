@@ -25,7 +25,8 @@ export default function TabLayout() {
             position: 'relative',
           },
           default: {},
-        }),
+        }
+      ),
         
       }}>
       <Tabs.Screen
