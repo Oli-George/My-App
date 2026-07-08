@@ -17,8 +17,7 @@ export default function NotFoundScreen() {
           <ThemedText>Try the link I corrected earlier. How&apos()s it? Does it work??</ThemedText>
         </Link>
       </ThemedView>
-<ThemedView>I WON THE SPRINT BUILD!!!! VAMOSSSSS. Time to give it my all in Sprintbuild 2. Hopefully it goes well too.</ThemedView>
-    </>
+</>
   );
 }
 

@@ -7,10 +7,10 @@ import { IconSymbol } from '@/components/ui/IconSymbol';
 import TabBarBackground from '@/components/ui/TabBarBackground';
 import { Colors } from '@/constants/Colors';
 import { useColorScheme } from '@/hooks/useColorScheme';
-
+import {} from '@/components/Collapsible';
 
 export default function TabLayout() {
-  const colorScheme = useColorScheme(); //What's this again sef??
+  const colorScheme = useColorScheme();
 
   return (
     <Tabs
