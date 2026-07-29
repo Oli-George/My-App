@@ -18,7 +18,7 @@ export default function RootLayout() {
       return null; 
   }
 
-  //What's the actual difference between return and export default function ?
+  //What is the actual difference between return and export default function ?
   
   return (
     <ThemeProvider value={colorScheme === 'dark' ? DarkTheme : DefaultTheme}>
