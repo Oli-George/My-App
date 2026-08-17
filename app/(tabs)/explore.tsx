@@ -10,6 +10,7 @@ import { IconSymbol } from '@/components/ui/IconSymbol';
 import {} from '@/components/ui/IconSymbol';
 
 //Nada más ahi
+
 export default function TabTwoScreen() {
   return (
     <ParallaxScrollView
