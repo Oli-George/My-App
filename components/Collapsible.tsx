@@ -7,6 +7,7 @@ import { IconSymbol } from '@/components/ui/IconSymbol';
 import { Colors } from '@/constants/Colors';
 import { useColorScheme } from '@/hooks/useColorScheme';
 
+//What more can I do here? No tengo idea por el momento.
 export function Collapsible({ children, title }: PropsWithChildren & { title: string }) {
   const [isOpen, setIsOpen] = useState(false);
   const theme = useColorScheme() ?? 'light';
@@ -19,7 +20,7 @@ export function Collapsible({ children, title }: PropsWithChildren & { title: st
         activeOpacity={0.8}>
         <IconSymbol
           name="chevron.right"
-          size={18}
+          size={19}
           weight="medium"
           color={theme === 'light' ? Colors.light.icon : Colors.dark.icon}
           style={{ transform: [{ rotate: isOpen ? '90deg' : '0deg' }] }}
@@ -29,17 +30,21 @@ export function Collapsible({ children, title }: PropsWithChildren & { title: st
       </TouchableOpacity>
       {isOpen && <ThemedView style={styles.content}>{children}</ThemedView>}
     </ThemedView>
+    
   );
 }
+
 
 const styles = StyleSheet.create({
   heading: {
     flexDirection: 'row',
     alignItems: 'center',
-    gap: 6,
+    gap: 6.5,
   },
+
   content: {
-    marginTop: 6,
-    marginLeft: 24,
+    marginTop: 6.25,
+    marginLeft: 25,
   },
+  
 });

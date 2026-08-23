@@ -1,22 +1,25 @@
 import { Link, Stack } from 'expo-router';
 import { StyleSheet } from 'react-native';
+import { ThemedText } from '@/components/ThemedText'; 
+import { ThemedView } from '@/components/ThemedView'; 
 
-import { ThemedText } from '@/components/ThemedText';
-import { ThemedView } from '@/components/ThemedView';
+// This is the not found (404) screen used when a user visits a non-existent route.
 
 export default function NotFoundScreen() {
   return (
     <>
       <Stack.Screen options={{ title: 'Oops!' }} />
       <ThemedView style={styles.container}>
-        <ThemedText type="title">This screen does not exist yet.</ThemedText>
+        <ThemedText type="title">This screen does not exist yet.I&apos()ll have to create itand implement it as I want.</ThemedText>
         <Link href="/" style={styles.link}>
-          <ThemedText type="link">Go to the home screen and try to fix whatever the issue is!</ThemedText>
+          <ThemedText type="link">I&apos()m changing this text and it will be like this until further notice. I need more inspiration.</ThemedText>
+          <ThemedText>Try the link I corrected earlier. How&apos()s it? Does it work??</ThemedText>
         </Link>
       </ThemedView>
-    </>
+</>
   );
 }
+
 
 const styles = StyleSheet.create({
   container: {
@@ -25,8 +28,9 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
     padding: 20,
   },
+  
   link: {
     marginTop: 15,
     paddingVertical: 15,
-  },
+  }, 
 });

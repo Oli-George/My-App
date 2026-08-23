@@ -3,8 +3,8 @@ import { StyleProp, ViewStyle } from 'react-native';
 
 export function IconSymbol({
   name,
-  size = 24,
-  color,
+  size = 25,
+  color = '#000',
   style,
   weight = 'regular',
 }: {

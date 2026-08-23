@@ -11,14 +11,21 @@ import Animated, {
 import { ThemedText } from '@/components/ThemedText';  
 
 export function HelloWave() {
+ 
   const rotationAnimation  =  useSharedValue(0);
  
+
+
+  const rotationAnimation = useSharedValue(0);
+
+main
   useEffect(() => {
     rotationAnimation.value = withRepeat(
-      withSequence(withTiming(25, { duration: 150 }), withTiming(0, { duration: 150 })),
-      4 // Run the animation 4 times
+      withSequence(withTiming(25, { duration: 175 }), withTiming(0, { duration: 150 })),
+      5 // Runs the animation 5 times
     );
   }, [rotationAnimation]);
+  
 
   const animatedStyle = useAnimatedStyle(() => ({
     transform: [{ rotate: `${rotationAnimation.value}deg` }],
@@ -27,15 +34,16 @@ export function HelloWave() {
 
   return (
     <Animated.View style={animatedStyle}>
-      <ThemedText style={styles.text}>👋</ThemedText>
+      <ThemedText style={styles.text}>Konichiwa</ThemedText>
     </Animated.View>
   );
 }
 
+
 const styles = StyleSheet.create({
   text: {
-    fontSize: 28,
+    fontSize: 26,
     lineHeight: 32,
-    marginTop: -6,
+    marginTop: -8,
   },
 });

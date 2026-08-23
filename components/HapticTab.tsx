@@ -2,6 +2,7 @@ import { BottomTabBarButtonProps } from '@react-navigation/bottom-tabs';
 import { PlatformPressable } from '@react-navigation/elements';
 import * as Haptics from 'expo-haptics';
 
+
 export function HapticTab(props: BottomTabBarButtonProps) {
   return (
     <PlatformPressable
@@ -16,3 +17,7 @@ export function HapticTab(props: BottomTabBarButtonProps) {
     />
   );
 }
+
+export default HapticTab;
+
+//Haptic Tab. What does it even do?? Still no idea. Toujours rien.

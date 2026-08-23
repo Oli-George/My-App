@@ -1,5 +1,4 @@
-# Learn more https://docs.github.com/en/get-started/getting-started-with-git/ignoring-files
-
+# Learn more https://docs.github.com/en/get-started/getting-started-with-git/ignoring-files. 
 # dependencies
 node_modules/
 
@@ -26,13 +25,14 @@ npm-debug.*
 yarn-debug.*
 yarn-error.*
 
+
 # macOS
 .DS_Store
 *.pem
 
 # local env files
 .env*.local
-
+. 
 # typescript
 *.tsbuildinfo
 
@@ -41,3 +41,7 @@ app-example
 # IDEs and editors
 .vscode/
 
+expo.env.d.ts 
+
+# Idea
+.idea/

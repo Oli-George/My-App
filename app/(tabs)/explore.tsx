@@ -7,23 +7,25 @@ import ParallaxScrollView from '@/components/ParallaxScrollView';
 import { ThemedText } from '@/components/ThemedText';
 import { ThemedView } from '@/components/ThemedView';
 import { IconSymbol } from '@/components/ui/IconSymbol';
+import {} from '@/components/ui/IconSymbol';
+
+//Nada más ahi
 
 export default function TabTwoScreen() {
   return (
     <ParallaxScrollView
       headerBackgroundColor={{ light: '#D0D0D0', dark: '#353636' }}
       headerImage={
-        <IconSymbol
-          size={310}
-          color="#808080"
+        <IconSymbol 
+          size={325} color="#808080"  
           name="chevron.left.forwardslash.chevron.right"
           style={styles.headerImage}
         />
       }>
       <ThemedView style={styles.titleContainer}>
         <ThemedText type="title">Explore</ThemedText>
-      </ThemedView>
-      <ThemedText>This app includes example code to help you get started.</ThemedText>
+      </ThemedView> 
+      <ThemedText>This app includes Example codes to help you get started.</ThemedText>
       <Collapsible title="File-based routing">
         <ThemedText>
           This app has two screens:{' '}
@@ -34,8 +36,8 @@ export default function TabTwoScreen() {
           The layout file in <ThemedText type="defaultSemiBold">app/(tabs)/_layout.tsx</ThemedText>{' '}
           sets up the tab navigator.
         </ThemedText>
-        <ExternalLink href="https://docs.expo.dev/router/introduction">
-          <ThemedText type="link">Learn more.</ThemedText>
+        <ExternalLink href="https://docs.expo.dev/router/introduction"> 
+          <ThemedText type="link">Learn more here.</ThemedText>
         </ExternalLink>
       </Collapsible>
       <Collapsible title="Android, iOS, and web support">
@@ -63,7 +65,7 @@ export default function TabTwoScreen() {
           </ThemedText>
         </ThemedText>
         <ExternalLink href="https://docs.expo.dev/versions/latest/sdk/font">
-          <ThemedText type="link">Learn more</ThemedText>
+          <ThemedText type="link">Learn more about what I am doing.</ThemedText>
         </ExternalLink>
       </Collapsible>
       <Collapsible title="Light and dark mode components">
@@ -82,12 +84,13 @@ export default function TabTwoScreen() {
           <ThemedText type="defaultSemiBold">components/HelloWave.tsx</ThemedText> component uses
           the powerful <ThemedText type="defaultSemiBold">react-native-reanimated</ThemedText>{' '}
           library to create a waving hand animation.
+          <p>Hopefully, I can learn this soon enough.<span>And start shipping real products and building real projects.</span></p>
         </ThemedText>
         {Platform.select({
           ios: (
             <ThemedText>
               The <ThemedText type="defaultSemiBold">components/ParallaxScrollView.tsx</ThemedText>{' '}
-              component provides a parallax effect for the header image.
+              component provides a parallax effect for the Header image. Cool, isn&Apos()t it? Also, this portion is OS-specific.
             </ThemedText>
           ),
         })}
@@ -95,6 +98,7 @@ export default function TabTwoScreen() {
     </ParallaxScrollView>
   );
 }
+//Top top. Exploracion. Nothin' to explore today.
 
 const styles = StyleSheet.create({
   headerImage: {
@@ -108,3 +112,6 @@ const styles = StyleSheet.create({
     gap: 8,
   },
 });
+
+
+//Will have to learn as much as possible on tech in general ahead of next Saturday.

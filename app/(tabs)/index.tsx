@@ -6,6 +6,7 @@ import ParallaxScrollView from '@/components/ParallaxScrollView';
 import { ThemedText } from '@/components/ThemedText';
 import { ThemedView } from '@/components/ThemedView';
 
+
 export default function HomeScreen() {
   return (
     <ParallaxScrollView
@@ -17,13 +18,13 @@ export default function HomeScreen() {
         />
       }>
       <ThemedView style={styles.titleContainer}>
-        <ThemedText type="title">Welcome Here</ThemedText>
+        <ThemedText type="title">Welcome To My Project!</ThemedText>
         <HelloWave />
       </ThemedView>
       <ThemedView style={styles.stepContainer}>
         <ThemedText type="subtitle">Step 1: Try it.</ThemedText>
         <ThemedText>
-          Edit <ThemedText type="defaultSemiBold">app/(tabs)/index.tsx</ThemedText> to see changes.
+          Edit <ThemedText type="defaultSemiBold">app/(tabs)/index.tsx</ThemedText> to see the changes I made. And tell us how they look.
           Press{' '}
           <ThemedText type="defaultSemiBold">
             {Platform.select({
@@ -36,25 +37,27 @@ export default function HomeScreen() {
         </ThemedText>
       </ThemedView>
       <ThemedView style={styles.stepContainer}>
+        
         <ThemedText type="subtitle">Step 2: Explore</ThemedText> 
         <ThemedText>
-          {`Tap the Explore tab to learn more about what's included in this starter app.`}
+          {`Tap the Explore tab to learn more about what's included in this starter appand what I'm up to.`}
         </ThemedText>
       </ThemedView>
       <ThemedView style={styles.stepContainer}>
-        <ThemedText type="subtitle">Step 3: Get a fresh start</ThemedText>
+        <ThemedText type="subtitle">Step 3: Get a fresh start:</ThemedText>
         <ThemedText>
           {`When you're ready, run `}
-          <ThemedText type="defaultSemiBold">npm run reset-project</ThemedText> to get a fresh{' '}
-          <ThemedText type="defaultSemiBold">app</ThemedText> directory. This will move the current{' '}
-          <ThemedText type="defaultSemiBold">app</ThemedText> to{' '}
-          <ThemedText type="defaultSemiBold">app-example.{'          '}</ThemedText>
-          <ThemedText type="subtitle">     </ThemedText>
+          <ThemedText type="defaultSemiBold">npm run reset-project </ThemedText>to get a fresh{' '}
+          <ThemedText type="defaultSemiBold">App</ThemedText> directory. This will move the current{' '}
+          <ThemedText type="defaultSemiBold">App</ThemedText> to{'  '}
+          <ThemedText type="defaultSemiBold">app-example.{'       '}</ThemedText>
+          {`Then you can start building your own app from scratch!`}
         </ThemedText>
       </ThemedView>
     </ParallaxScrollView>
   );
 }
+
 
 const styles = StyleSheet.create({
   titleContainer: {
@@ -68,9 +71,10 @@ const styles = StyleSheet.create({
   },
   reactLogo: {
     height: 178,
-    width: 290,
+    width: 280,
     bottom: 0,
     left: 0,
     position: 'absolute',
   },
 });
+
