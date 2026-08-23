@@ -8,12 +8,17 @@ import Animated, {
   withTiming,
 } from 'react-native-reanimated';
 
-import { ThemedText } from '@/components/ThemedText';
+import { ThemedText } from '@/components/ThemedText';  
 
 export function HelloWave() {
+ 
+  const rotationAnimation  =  useSharedValue(0);
+ 
+
 
   const rotationAnimation = useSharedValue(0);
 
+main
   useEffect(() => {
     rotationAnimation.value = withRepeat(
       withSequence(withTiming(25, { duration: 175 }), withTiming(0, { duration: 150 })),
@@ -25,6 +30,7 @@ export function HelloWave() {
   const animatedStyle = useAnimatedStyle(() => ({
     transform: [{ rotate: `${rotationAnimation.value}deg` }],
   }));
+ 
 
   return (
     <Animated.View style={animatedStyle}>
