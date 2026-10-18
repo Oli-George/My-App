@@ -3,6 +3,7 @@ import { openBrowserAsync } from 'expo-web-browser';
 import { type ComponentProps } from 'react';
 import { Platform } from 'react-native';
 
+
 type Props = Omit<ComponentProps<typeof Link>, 'href'> & { href: Href & string };
 
 export function ExternalLink({ href, ...rest }: Props) {
@@ -13,7 +14,8 @@ export function ExternalLink({ href, ...rest }: Props) {
       href={href}
       onPress={async (event) => {
         if (Platform.OS !== 'web') {
-          // Prevent the default behavior of linking to the default browser on native. A little unlikely but can never be too sure.
+          // Prevent the default behavior of linking to the default browser on native. A little unlikely but can never be too sure. Can always get better, being stubborn >> being talented. 
+
           event.preventDefault();
           // Open the link in an in-app browser.
           await openBrowserAsync(href);
