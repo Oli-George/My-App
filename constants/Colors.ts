@@ -29,4 +29,5 @@ export const Colors = {
   },
 };
          
-{//just adding thee communisms}      
+{//just adding thee communisms
+  }      
