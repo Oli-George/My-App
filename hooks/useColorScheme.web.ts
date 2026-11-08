@@ -8,7 +8,7 @@ export function useColorScheme() {
   const [hasHydrated, setHasHydrated] = useState(false); //What is a UseState again? Absolutely need refreshing here.
 
   useEffect(() => {
-    setHasHydrated(true);
+    setHasHydrated(true); // I had hydration in my SIWES project toooo.
   }, []);
 
   const colorScheme = useRNColorScheme();
