@@ -13,7 +13,7 @@ import { ThemedText } from '@/components/ThemedText';
 export function HelloWave() { 
  
   const rotationAnimation  =  useSharedValue(0);
- 
+
 
 
   const rotationAnimation = useSharedValue(0);
@@ -21,7 +21,7 @@ export function HelloWave() {
 main
   useEffect(() => {
     rotationAnimation.value = withRepeat(
-      withSequence(withTiming(25, { duration: 175 }), withTiming(0, { duration: 150 })),
+      withSequence(withTiming(25, { duration: 175 }), withTiming(0, { duration: 150 })), 
       5 // Runs the animation 5 times
     );
   }, [rotationAnimation]);
