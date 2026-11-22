@@ -19,3 +19,4 @@ export function useColorScheme() {
 
   return 'light';
 }
+//Godspeed to myself for these coming midterms. 🙏🤲
