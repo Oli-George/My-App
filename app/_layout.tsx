@@ -6,7 +6,7 @@ import 'react-native-reanimated';
 import { useColorScheme } from '@/hooks/useColorScheme';
 
 
-// This is the root layout of the app. It wraps all the pages and components.
+// This is the root layout of the app. It wraps all the pages and components used in the project.
 export default function RootLayout() { 
   const colorScheme = useColorScheme();
   const [loaded] = useFonts({
