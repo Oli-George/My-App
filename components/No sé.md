@@ -5,3 +5,6 @@ Why was this created you ask, well I'd like to know as well ...
 Looking for something to say
 Nope, nadA a DeCiR aquí...
 Todavia nada importante a decirten.
+
+- One summer night
+- -Me encanta la lengua de Esapnol\*
